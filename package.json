@@ -1,0 +1,16 @@
+{
+  "name": "today",
+  "version": "0.0.1",
+  "author": "Koen Bollen <meneer@koenbollen.nl>",
+  "description": "show a graphs of today precipitation based on your current location",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "mocha tests/"
+  },
+  "dependencies" : {
+  	"express": "3.x",
+  	"jshtml-express": "0.3.x",
+  	"request": "2.*"
+  }
+}
